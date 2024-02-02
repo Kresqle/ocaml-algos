@@ -22,8 +22,8 @@ An implementation of different algorithms in OCaml (list from [Wikipedia](https:
 
 #### Sequence search
 - <a name="linear_search"></a><b>Linear search</b>
+
 A linear search sequentially checks each element of the list until it finds an element that matches the target value. If the algorithm reaches the end of the list, the search terminates unsuccessfully.
-To find out more, see [linear search](https://github.com/Kresqle/ocaml-algos/tree/main/Combinatorial%20algorithms/Sequence%20algorithms/Sequence%20search#linear-search)
 
 Implementation:
 ```ocaml
@@ -34,3 +34,5 @@ let linear_search sequence value =
         else search_helper (index + 1)
     in search_helper 0
 ```
+
+To find out more, see [linear search](https://github.com/Kresqle/ocaml-algos/tree/main/Combinatorial%20algorithms/Sequence%20algorithms/Sequence%20search#linear-search).
