@@ -4,10 +4,10 @@
 An implementation of different algorithms in OCaml (list from [Wikipedia](https://en.wikipedia.org/wiki/List_of_algorithms), some might not be implemented yet).
 
 ## Table of contents
-0. [Broad definition of the term algorithm](#broad_definition_of-the_term_algorithm)
-1. [Combinatorial algorithms](#combinatorial_algorithms)
-   1. [Sequence algorithms](#sequence_algorithms)
-      1. [Sequence search](#sequence_search)
+0. [Broad definition of the term algorithm](#broad-definition-of-the-term-algorithm)
+1. [Combinatorial algorithms](#combinatorial-algorithms)
+   1. [Sequence algorithms](#sequence-algorithms)
+      1. [Sequence search](#sequence-search)
 
 ## Broad definition of the term algorithm
 
@@ -19,7 +19,7 @@ Broadly, algorithms define process(es), sets of rules, or methodologies that are
 ### Sequence algorithms
 
 #### Sequence search
-- <a name="linear_search"></a><b>Linear search</b>
+- <a name="linear-search"></a><b>Linear search</b>
 
 A linear search sequentially checks each element of the list until it finds an element that matches the target value. If the algorithm reaches the end of the list, the search terminates unsuccessfully.
 
