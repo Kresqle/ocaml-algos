@@ -1,5 +1,7 @@
 # Sequence search
 
+## Table of contents
+
 - [Linear search](#linear-search)
    * [Algorithm](#algorithm)
    * [Complexity Analysis](#complexity-analysis)
