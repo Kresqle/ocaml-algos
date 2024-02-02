@@ -1,6 +1,6 @@
 # Algorithms in OCaml
 
-An implementation of different algorithms in OCaml (list from [Wikipedia](https://en.wikipedia.org/wiki/List_of_algorithms)).
+An implementation of different algorithms in OCaml (list from [Wikipedia](https://en.wikipedia.org/wiki/List_of_algorithms), some might not be implemented yet).
 
 ## Broad definition of the term algorithm
 
