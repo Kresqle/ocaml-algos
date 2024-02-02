@@ -34,3 +34,40 @@ let linear_search sequence value =
 ```
 
 To find out more, see [linear search](https://github.com/Kresqle/ocaml-algos/tree/main/Combinatorial%20algorithms/Sequence%20algorithms/Sequence%20search#linear-search).
+
+- <a name="selection-algorithm"></a><b>Selection algorithm</b>
+
+The selection algorithm is an algorithm that selects the kth smallest or largest element from an unsorted list or array. 
+
+Implementation:
+```ocaml
+let selection_algorithm sequence k =
+    if k <= 0 || k >= List.length sequence then None
+    else Some (List.nth (List.sort compare sequence) (k - 1))
+```
+NB: This implementation selects the ktg smallest element from an unsorted array
+
+To find out more, see [linear search](https://github.com/Kresqle/ocaml-algos/tree/main/Combinatorial%20algorithms/Sequence%20algorithms/Sequence%20search#selection-algorithm).
+
+- <a name="ternary-search"></a><b>Ternary search</b>
+
+Ternary search is a divide-and-conquer algorithm used to find the maximum or minimum value of a unimodal function within a specified range by repeatedly dividing the search interval into three equal parts and eliminating one third of the interval based on the values of function evaluations.
+
+Implementation:
+```ocaml
+include Float
+
+let rec ternary_search f left right absolute_precision =
+    if abs (right -. left) < absolute_precision then (left +. right) /. 2.
+    else begin
+        let left_third = (2. *. left +. right) /. 3. in
+        let right_third = (left +. 2. *. right) /. 3. in
+        if f left_third < f right_third then
+            ternary_search f left_third right absolute_precision
+        else
+            ternary_search f left right_third absolute_precision
+    end
+```
+NB: This implementation finds the maximum of the function f on the specified range
+
+To find out more, see [linear search](https://github.com/Kresqle/ocaml-algos/tree/main/Combinatorial%20algorithms/Sequence%20algorithms/Sequence%20search#ternary-search).
