@@ -8,6 +8,9 @@ An implementation of different algorithms in OCaml (list from [Wikipedia](https:
 1. [Combinatorial algorithms](#combinatorial-algorithms)
    1. [Sequence algorithms](#sequence-algorithms)
       1. [Sequence search](#sequence-search)
+         1. [Linear search](#linear-search)
+         2. [Selection algorithm](#selection-algorithm)
+         3. [Ternary search](#ternary-search)
 
 ## Broad definition of the term algorithm
 
