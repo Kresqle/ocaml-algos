@@ -1,8 +1,15 @@
-
 # Sequence search
 
-## Linear search
+- [Linear search](#linear-search)
+   * [Algorithm](#algorithm)
+   * [Complexity Analysis](#complexity-analysis)
+   * [Advantages and Disadvantages](#advantages-and-disadvantages)
+      + [Advantages](#advantages)
+      + [Disadvantages](#disadvantages)
+   * [Applications](#applications)
+   * [Conclusion](#conclusion)
 
+## Linear search
 
 | Algorithm                   | Linear search    |
 |-----------------------------|------------------|
